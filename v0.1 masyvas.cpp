@@ -13,7 +13,7 @@ struct pazymiai
         galutinis = 0;
     }
 };
-void Rykiuoti(pazymiai M[], int n)
+void Rikiuoti(pazymiai M[], int n)
 {
     for (int i = 0; i < n - 1; i++)
         for (int j = i + 1; j < n; j++)
@@ -182,7 +182,7 @@ int main()
             A[i].galutinis = 0.4 * (suma / ndk) + (0.6 * egzaminas);
         else if (A[i].MV == 'M')
         {
-            Rykiuoti(A, ndk);
+            Rikiuoti(A, ndk);
             if (ndk % 2 != 0)
             {
                 int k = 0;
