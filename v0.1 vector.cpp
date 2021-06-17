@@ -49,7 +49,7 @@ int main()
             {
                 cin.clear();
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                cout << "KLAIDA. Studento varda privalo sudaryti tik raides. Iveskite studento varda:" << endl;;
+                cout << "KLAIDA. Studento pavarde privalo sudaryti tik raides. Iveskite studento pavarde:" << endl;;
                 cin >> A[i].pavarde;
                 t = 0;
             }
