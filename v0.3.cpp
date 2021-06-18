@@ -118,7 +118,7 @@ int main()
                     k = zodziai / 2;
                     mediana = (A[a].pazymys[k-1] + A[a].pazymys[k])/2;
                 }
-                A[a].galutinis = mediana;
+                A[a].galutinis = mediana * 0.4 + egzaminas * 0.6;
             }
             a++;
             stud = a;
