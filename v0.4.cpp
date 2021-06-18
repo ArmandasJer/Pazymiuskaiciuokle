@@ -320,7 +320,6 @@ int main()
         }
         }
     }
-    auto begin = std::chrono::high_resolution_clock::now();
     outv.width(15);
     outv << std::left << "Pavarde";
     outv.width(15);
