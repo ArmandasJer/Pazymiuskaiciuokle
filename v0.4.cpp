@@ -128,7 +128,7 @@ int main()
                     k = zodziai / 2;
                     mediana = (A[a].pazymys[k-1] + A[a].pazymys[k])/2;
                 }
-                A[a].galutinis = mediana;
+                A[a].galutinis = mediana * 0.4 + egzaminas * 0.6;
             }
             a++;
             stud = a;
@@ -296,7 +296,7 @@ int main()
                     k = ndk / 2;
                     mediana = (A[i].pazymys[k-1] + A[i].pazymys[k]) / 2;
                 }
-                A[i].galutinis = mediana;
+                A[i].galutinis = mediana * 0.4 + egzamians * 0.6;
             }
         cout << "Ar yra daugiau studentu? ('taip'/'ne')" << endl;
         string klausimas3;
